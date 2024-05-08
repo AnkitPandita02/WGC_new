@@ -12109,7 +12109,7 @@ p.sticky-label {
   font-size: 16px;
   font-weight: 700;
   color: var(--theme);
-  margin-top: 15px;
+  margin-top: 40px;
   display: inline-block;
 }
 
@@ -12120,7 +12120,7 @@ p.sticky-label {
 }
 
 .footer-widgets-wrapper .single-footer-widget .footer-content .social-icon {
-  margin-top: 40px;
+  margin-top: 15px;
   gap: 15px;
   position: relative;
   z-index: 9;
@@ -12529,4 +12529,18 @@ p.sticky-label {
   .newsletter-area .newsletter-items .theme-btn {
     padding: 18px 25px;
   }
+}
+
+
+
+
+/* ankit css */
+a.header-logo img {
+  width: 4vw;
+}
+.offcanvas__logo img {
+  width: 10vw;
+}
+.widget-head img {
+  width: 8vw;
 }
