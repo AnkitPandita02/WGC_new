@@ -12551,8 +12551,22 @@ a.header-logo img {
 
 
 
+.nice-select.list001.open {
+  transform: translateY(-150px);
+}
+.nice-select span {
+  color: #ffffff;
+}
+.nice-select:after {
 
+  border-bottom: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
 
+}
+.nice-select:hover::after {
+  border-bottom: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+}
 .select-dropdown,
 .select-dropdown * {
 	margin: 0;
