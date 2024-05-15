@@ -12547,8 +12547,12 @@ a.header-logo img {
 
 
 
-
-
+@media (min-width: 1200px) {
+  .service-box-items.style-2 {
+    width: 31%;
+  }
+  
+}
 
 
 .nice-select.list001.open {
