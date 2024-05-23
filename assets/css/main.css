@@ -1712,7 +1712,7 @@ input.main-search-input::placeholder {
   font-size: 16px;
   font-weight: 600;
   color: var(--header);
-  padding: 35px 0;
+  padding: 15px 0;
   text-align: left;
   position: relative;
   text-transform: capitalize;
@@ -12537,6 +12537,7 @@ p.sticky-label {
 /* ankit css */
 a.header-logo img {
   width: 4vw;
+  padding: 5px 0px;
 }
 .offcanvas__logo img {
   width: 10vw;
@@ -12609,4 +12610,17 @@ a.header-logo img {
 	border-top: 5px solid #aaa;
 	border-right: 5px solid transparent;
 	border-left: 5px solid transparent;
+}
+
+/* ul.submenu {
+  margin-top: 0px !important;
+  margin-left: 20px !important;
+ } */
+ul.submenu li {
+  padding-left: 15px !important;
+}
+#mobile-menu ul{
+  display : flex ;
+  flex-direction : column;
+  gap : 1px;
 }
